@@ -1,0 +1,15 @@
+{
+	"configurations": [
+		{
+			"name": "lovr launch",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "lovr.exe",
+			"args": ["--console", "${workspaceFolder}"],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"console":"integratedTerminal"
+		}
+	]
+}
